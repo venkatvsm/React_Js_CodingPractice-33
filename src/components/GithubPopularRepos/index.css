@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.bg_container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 15px;
+  border-style: solid;
+}
+.GithubPopularRepos_heading {
+  font-family: 'Lobster';
+  font-weight: 800;
+}

@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.RepositoryItem_container {
+  width: 100%;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.listContainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #f8f8ff;
+  border-radius: 25px;
+  padding: 30px;
+  width: 80%;
+}
+.image {
+  width: 30%;
+}
+.heading {
+  text-align: center;
+  color: #e73959;
+  font-size: 21px;
+}
+.itemscontainer {
+  margin: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+.image2 {
+  margin: 3px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.para2 {
+  color: #1e293b;
+  font-weight: 600;
+  margin: 3px;
+}
+@media screen and (min-width: 768px) {
+  .RepositoryItem_container {
+    flex-direction: row;
+  }
+  .listContainer {
+    width: 30%;
+    margin-right: 28px;
+    margin-bottom: 15px;
+    padding: 30px;
+  }
+  .image {
+    width: 100%;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .image2 {
+    width: 35px;
+    height: 35px;
+  }
+  .para2 {
+    font-size: 21px;
+  }
+}
+
+.failure_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure_image {
+  width: 100%;
+}
+.failure_para {
+  font-family: 'Lobster';
+  font-size: 26px;
+  font-weight: 600;
+}
